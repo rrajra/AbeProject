@@ -1,0 +1,117 @@
+body 
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #1A1A1A;    
+}
+input 
+{
+    height: 4%;
+    border-color: none;
+    outline: none;
+}
+input[type="text"]
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    margin: 8px 0;
+    padding: 6px 17px;
+    border: none;
+    background: whitesmoke;
+}
+input[type="password"]
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    margin: 8px 0;
+    padding: 6px 17px;
+    border: none;
+    background: whitesmoke;
+}
+a 
+{
+    text-decoration: none;
+    color: #10AACC;
+}
+button 
+{
+    background-color: #10AACC;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+button:hover 
+{
+    background-color: #1298b6;
+}
+.mainContent 
+{   
+    display: flex;
+    justify-content: center;
+}
+.loginForm {
+    margin: 10% 15% 0 15%;
+    background-color: white;
+    border-radius: 1.5%;
+    width: 30%;
+}
+.header 
+{
+    padding: 15px 0 15px 0;
+    text-align: center;
+    font-size: 0.8em;
+    user-select: none;
+    font-family: Lato;
+}
+.userInputs
+{
+    margin: 2% 5% 2% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.buttonLinks 
+{
+    justify-content: center;
+    text-align: center;
+}
+.indInput 
+{
+    margin: 2% 5% 2% 5%;
+}
+.indInput p {
+    user-select: none;
+    margin: 1px;
+}
+#usernameInput {
+    background-image: url();
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#passwordInput {
+    background-image: url();
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#OR 
+{
+    text-align: center;
+    user-select: none;
+    font-size: 1.4em;
+}
+.color {
+    background-color: #ccc;
+}
+.otherLinks {
+    padding-bottom: 5%;
+}
+.indivLink {
+    padding-bottom: 1.5%;
+}

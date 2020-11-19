@@ -1,0 +1,208 @@
+body 
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #1A1A1A;    
+}
+input 
+{
+    height: 4%;
+    border-color: none;
+    outline: none;
+}
+input[type="text"]
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    margin: 8px 0;
+    padding: 6px 17px;
+    border: none;
+    background: whitesmoke;
+}
+input[type="datetime"]
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    margin: 8px 0;
+    padding: 6px 17px;
+    border: none;
+    background: whitesmoke;
+}
+input[type="date"]
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    margin: 8px 0;
+    padding: 6px 17px;
+    border: none;
+    background: whitesmoke;
+}
+button 
+{
+    background-color: #10AACC;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+button:hover 
+{
+    background-color: #1298b6;
+}
+.loginForm {
+    margin: 2% 15% 0 15%;
+    background-color: white;
+    border-radius: 1.5%;
+    width: 65%;
+}
+.header 
+{
+    padding: 15px 0 15px 0;
+    text-align: center;
+    font-size: 0.8em;
+    user-select: none;
+    font-family: Lato;
+}
+.userInputs
+{
+    margin: 2% 5% 2% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.indInput 
+{
+    margin: 1% 4% 1% 4%;
+}
+.indInput p {
+    user-select: none;
+    margin: 1px;
+}
+.submitBtn 
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4%;
+}
+#nameFInput {
+    background-image: url();
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#nameLInput {
+    background-image: url();
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#phoneInput {
+    background-image: url();
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#emailInput {
+    background-image: url();
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#dateInput1 {
+    background-image: url();
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+/* Dropdown Button */
+.dropdownBtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropdownBtn:hover, .dropdownBtn:focus {
+    background-color: #2980B9;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+  
+#issueInd 
+{
+    width: 45%;
+}
+  .dates 
+{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.dates .indInput 
+{
+    display: flex;
+}
+.dates .indInput .timeInput input 
+{
+    height: auto;
+}
+.dateInput 
+{
+    padding-right: 3%;
+}
+.dateInput input 
+{
+    height: auto;
+}
+.infoText 
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    font-family: Lato;
+}
+  select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    outline: none;
+  }

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+    <!-- Created by Matthew Abrahams -->
+    <!--      For Abe Legal          -->
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <div class="mainContent">
+        
+        <div class="loginForm">
+
+            <div class="header">
+                <h1>Welcome to Abe Legal</h1>
+                <h2>Please create an account</h2>
+            </div>
+
+            <div class="userInputs">
+                
+                <div class="indInput">
+                <div class="firstnameInput">
+                    <input type="text" id="nameFInput" placeholder="First name">
+                </div>
+                </div>
+
+                <div class="indInput">
+                <div class="lastnameInput">
+                    <input type="text" id="nameLInput" placeholder="Last name">
+                </div>
+                </div>
+
+                <div class="indInput">
+                <div class="phoneInput">
+                    <input type="text" id="phoneInput" placeholder="Phone number">
+                </div>
+                </div>
+
+                <div class="indInput">
+                <div class="emailInput">
+                    <input type="text" id="emailInput" placeholder="Email">
+                </div>
+                </div>
+
+                <div class="indInput" id="issueInd">
+                <div class="issueInput">
+                    <p id="enterIssue">Issue (select one)</p>
+                    <form>
+                        <select id="legalIssue" name="legal">
+                            <option value="choose">Choose One</option>
+                            <option value="legalConsultation">Legal consultation</option>
+                            <option value="option2">Option 2</option>
+                            <option value="option3">Option 3</option>
+                        </select>
+                    </form>
+                </div>
+                </div>
+            </div>
+                <div class="dates">
+                    <div class="infoText">
+                        <p>Please choose 3 dates which we can meet</p>
+                    </div>  
+                <!-- Another way to do the time would
+                     be to create a dropdown with times
+                     ranging from 11-12 ( 12, 1, 2, etc.)
+                     with another dropdown for AM/PM. This
+                     would probably be better to prevent clients
+                     from scheduling a meeting when business is closed. 
+                     Would be easy to let owner set possible meeting times -->
+
+                <div class="indInput">
+                    <div class="dateInput">
+                        <p id="enterDate1">Date 1</p>
+                        <input type="date" id="dateInput1">
+                    </div>
+
+                    <div class="timeInput">
+                        <p id="enterTime1">Time 1</p>
+                        <input type="datetime" id="timeInput1">
+                    </div>
+                    </div>
+
+                    <div class="indInput">
+                        <div class="dateInput">
+                            <p id="enterDate2">Date 2</p>
+                            <input type="date" id="dateInput2">
+                        </div>
+                        <div class="timeInput">
+                            <p id="enterTime2">Time 2</p>
+                            <input type="datetime" id="timeInput2">
+                        </div>
+                        </div>
+
+                        <div class="indInput">
+                            <div class="dateInput">
+                                <p id="enterDate3">Date 3</p>
+                                <input type="date" id="dateInput3">
+                            </div>
+
+                            <div class="timeInput">
+                                <p id="enterTime3">Time 3</p>
+                                <input type="datetime" id="timeInput3">
+                            </div>
+                            </div>
+                </div>
+
+                <div class="indInput">
+                    <div class="submitBtn">
+                        <button id="submitBtn">Submit</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+    <body>
+        
+        <script src="main.js" async defer></script>
+    </body>
+</html>
