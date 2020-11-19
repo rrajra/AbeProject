@@ -9,6 +9,7 @@ To view, simply clone repository and then open signin.html.
 * Notifies user if a input field is blank
 * Gets and returns input information
 * Converts all information to JSON format
+* Warns users that progress may not be saved if they attempt to leave page
 
 ## Credits 
 SVG files were found at [tablericons](https://tablericons.com/).
