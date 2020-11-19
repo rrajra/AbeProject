@@ -21,6 +21,7 @@ window.onbeforeunload = function () {
         return "";
 }; 
 
+// All the checkX functions make sure fields are not empty
 function checkFName() 
 {
     var firstNameBox = document.getElementById("nameFInput")
@@ -78,7 +79,6 @@ function checkEmail()
         email = emailBox.textContent;
     }
 }
-
 function submitData()  
 {
     // Gets first name
