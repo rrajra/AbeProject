@@ -6,7 +6,7 @@ To view, simply clone repository and then open signin.html.
 
 
 ## Features
-* Notifies user if a input field is blank
+* Notifies user if an input field is blank
 * Gets and returns input information
 * Converts all information to JSON format
 * Warns users that progress may not be saved if they attempt to leave page
