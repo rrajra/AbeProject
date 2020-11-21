@@ -94,11 +94,15 @@ button:hover
     background-image: url();
     background-position: right;
     background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 100%;
 }
 #passwordInput {
     background-image: url();
     background-position: right;
     background-repeat: no-repeat;
+    box-sizing: border-box;
+    width: 100%;
 }
 #OR 
 {
